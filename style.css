@@ -52,7 +52,7 @@ body {
   div{
     height: 100%;
     width: 100%;
-    background-image: url('https://cdn.discordapp.com/attachments/1031314827374772314/1231661221175099472/background.png?ex=6637c4e6&is=66254fe6&hm=cdc958f2d065935b64a22d461aedd965fa21d285be0f4069566e6dc7e3f842fb&');
+    background-image: url(background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
