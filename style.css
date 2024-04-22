@@ -111,7 +111,7 @@ body {
   .form-box .input-box input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #bdb8b8;
+    color: #ffffffac;
     font-size: 12px;
   }
   
@@ -177,3 +177,8 @@ body {
     flex-shrink: 0;
   }
 
+  .info-text {
+    font-size: small;
+    color: #ffffffac;
+    margin-top: -20px;
+  }
