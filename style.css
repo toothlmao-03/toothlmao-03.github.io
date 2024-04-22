@@ -7,7 +7,6 @@ body {
     color: #DFE6F1;
     background-color: #0C121B;
     margin: 0;
-    height: 100%;
   }
   
   .nav-link {
@@ -54,6 +53,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    width: 100%;
   }
 
   .form-box {
