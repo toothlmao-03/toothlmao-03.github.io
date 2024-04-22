@@ -32,25 +32,25 @@
                 <form>
                     <div class="input-group">
                         <div class="input-box">
-                            <input type="text" name="name" required="">
+                            <input type="text" name="name" required="true" maxlength="20">
                             <label>Nome</label>
                         </div>
                         <div class="input-box surname">
-                            <input type="text" name="name" required="">
+                            <input type="text" name="surname" required="true" maxlength="20">
                             <label>Apelido</label>
                         </div>
                     </div>
                     <div class="input-box">
-                        <input type="number" name="" required="" max="10" contenteditable="" value="1">
+                        <input type="number" name="tickets" required="true" max="10" contenteditable="" value="1">
                         <label>Número de pulseiras</label>
                     </div>
                     <div class="info-text">Máximo de pulseiras por reserva: 10<br>Reservas inválidas serão anuladas.</div>
                     <center>
-                    <a href="#">
+                    <a id="complete-reservation" href="#">
                         Reservar
-                  </a></center>
+                    </a></center>
                 </form>
-              </div>
+            </div>
         </div>
     </body>
     <script src="script.js"></script> </body>
