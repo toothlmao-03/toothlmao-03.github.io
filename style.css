@@ -53,8 +53,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
   }
 
   .form-box {
@@ -159,3 +157,10 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
   }
+
+  .full {
+    height: 100%;
+    width: 100%;
+    position:static;
+  }
+
