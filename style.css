@@ -68,6 +68,16 @@ body {
     box-shadow: 0 15px 25px #0c121b5f;
     border-radius: 10px;
   }
+
+  @media screen and (max-width: 767px){
+    .form-box {
+      position: static;
+      height: 100%;
+      width: 400px;
+      padding: 40px;
+      background: #0c121ba5;
+    }
+  }
   
   .form-box .input-box {
     position: relative;
