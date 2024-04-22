@@ -58,12 +58,11 @@ body {
   }
 
   .form-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: static;
+    height: fit-content;
+    margin: auto;
     width: 400px;
     padding: 40px;
-    transform: translate(-50%, -50%);
     background: #0c121ba5;
     box-sizing: border-box;
     box-shadow: 0 15px 25px #0c121b5f;
