@@ -177,7 +177,7 @@ body {
     flex-shrink: 0;
   }
 
-  .info-text {
+  .info-text{
     font-size: small;
     color: #ffffffac;
     margin-top: -20px;
