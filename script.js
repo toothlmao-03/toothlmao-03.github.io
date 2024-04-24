@@ -1,4 +1,8 @@
-document.getElementById('complete-reservation').addEventListener('click', function() {
+if (localStorage.getItem('reserved')){
+  document.getElementById('complete-reservation').disabled = true;
+  document.getElementById('reserve-link').disabled = true;
+} else {
+  document.getElementById('complete-reservation').addEventListener('click', function() {
     var name = document.querySelector('input[name="name"]').value;
     var surname = document.querySelector('input[name="surname"]').value;
     var tickets = document.querySelector('input[name="tickets"]').value;
@@ -29,6 +33,7 @@ document.getElementById('complete-reservation').addEventListener('click', functi
     .then(response => {
       if (response.ok) {
         window.location.href = 'success.html';
+        localStorage.setItem('reserved', true);
       } else {
         alert('Erro ao realizar reserva. Por favor, tenta novamente.');
       }
@@ -38,6 +43,7 @@ document.getElementById('complete-reservation').addEventListener('click', functi
       alert('Erro ao realizar reserva. Por favor, tenta novamente.');
     });
   });
+}
 
   document.addEventListener("DOMContentLoaded", function() {
     var form = document.querySelector("form");
