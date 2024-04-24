@@ -1,6 +1,5 @@
 if (localStorage.getItem('reserved')){
   document.getElementById('complete-reservation').disabled = true;
-  document.getElementById('reserve-link').disabled = true;
 } else {
   document.getElementById('complete-reservation').addEventListener('click', function() {
     var name = document.querySelector('input[name="name"]').value;
@@ -9,12 +8,7 @@ if (localStorage.getItem('reserved')){
   
     var price = 2.5; //PRICE HERE
 
-    if(!name||!surname){
-        return;
-    }
-
-    if(tickets<1||tickets>10){
-        document.querySelector('.info-text').innerHTML = "<b>Escolhe apenas entre 1 e 10 pulseiras.<br>Caso queiras reservar mais, faz outra reserva depois desta.</b>"
+    if(!name||!surname||tickets<1||tickets>10){
         return;
     }
 

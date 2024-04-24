@@ -139,6 +139,7 @@ body {
     border-radius: 5px;
     font-weight: 500;
     border: none;
+    font-family: Montserrat;
   }
   
   #complete-reservation:hover {
@@ -149,6 +150,14 @@ body {
                 0 0 25px #1FE797,
                 0 0 50px #1FE797,
                 0 0 75px #8938f2;
+  }
+
+  #complete-reservation:disabled{
+    background: #8938f23b;
+  }
+
+  #complete-reservation:hover:disabled {
+    box-shadow: none;
   }
 
   .form-box .input-group {
