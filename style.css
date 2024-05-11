@@ -1,204 +1,190 @@
 body {
-    font-family: Montserrat; 
-    color: #DFE6F1;
-    background-color: #0C121B;
-    margin: 0;
+  font-family: Montserrat;
+  color: #DFE6F1;
+  background-color: #0C121B;
+  margin: 0;
 }
-  
-  .nav-link {
-    vertical-align: top;
-    color: #ffffff;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-menu {
-    float: right;
-    position: relative;
-  }
-  
-  .navbar {
-    background-color: #0c121b00;
-    flex-direction: column;
-    justify-content: space-around;
-    display: flex;
-    position: fixed;
-    top: 0%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
-    padding: 10px;
-    padding-left: 14px;
-    display: flex;
-    flex: 1;
-  }
+
+.nav-link {
+  color: #ffffff;
+  text-align: left;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-menu {
+  float: right;
+}
+
+.navbar {
+  background-color: rgba(12, 18, 27, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.imtip {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px){
   .imtip {
-    position:fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 50%;
-  }
-
-  @media screen and (max-width: 767px){
-    .imtip {
       width: 75%;
-    }
   }
+}
 
-  .background {
-    background-image: url(background.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.background {
+  background-image: url(background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.form-box {
+  position: static;
+  height: fit-content;
+  margin: auto;
+  width: 400px;
+  padding: 40px;
+  background: rgba(12, 18, 27, 0.65);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(12, 18, 27, 0.37);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px){
   .form-box {
-    position: static;
-    height: fit-content;
-    margin: auto;
-    width: 400px;
-    padding: 40px;
-    background: #0c121ba5;
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px #0c121b5f;
-    border-radius: 10px;
-  }
-
-  @media screen and (max-width: 767px){
-    .form-box {
-      position: static;
-      height: fit-content;
       width: max-content;
       margin-left: 14px;
       margin-right: 14px;
-      border-radius: 10px;
-    }
   }
-  
-  .form-box .input-box {
-    position: relative;
-  }
-  
-  .form-box .input-box input {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    background: transparent;
-  }
-  
-  .form-box .input-box label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    pointer-events: none;
-    transition: .2s;
-  }
-  
-  .form-box .input-box input:focus ~ label,
-  .form-box .input-box input:valid ~ label {
-    top: -20px;
-    left: 0;
-    color: #ffffffac;
-    font-size: 12px;
-  }
+}
 
-  .form-box .input-box input:out-of-range ~ label {
-    top: -20px;
-    left: 0;
-    color: rgb(255, 60, 60);
-    font-size: 12px;
-  }
-  
-  #complete-reservation {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #ffffff;
-    font-size: 16px;
-    text-decoration: none;
-    overflow: hidden;
-    transition: .2s;
-    margin-top: 40px;
-    background: #8938f2;
-    border-radius: 5px;
-    font-weight: 500;
-    border: none;
-    font-family: Montserrat;
-  }
-  
-  #complete-reservation:hover {
-    background: #8938f2;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #1FE797,
-                0 0 25px #1FE797,
-                0 0 50px #1FE797,
-                0 0 75px #8938f2;
-  }
+.form-box .input-box {
+  position: relative;
+}
 
-  #complete-reservation:disabled{
-    background: #8938f23b;
-  }
+.form-box .input-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
 
-  #complete-reservation:hover:disabled {
-    box-shadow: none;
-  }
+.form-box .input-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .2s;
+}
 
-  .form-box .input-group {
-    display: flex;
-  }
+.form-box .input-box input:focus ~ label,
+.form-box .input-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ffffffac;
+  font-size: 12px;
+}
 
-  .surname {
-    margin-left: 14px;
-  }
+.form-box .input-box input:out-of-range ~ label {
+  top: -20px;
+  left: 0;
+  color: rgb(255, 60, 60);
+  font-size: 12px;
+}
 
-  .input-box input {
-    font-family: Montserrat;
-  }
-  
-  @keyframes btn-anim1 {
-    0% {
+#complete-reservation {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  transition: .2s;
+  margin-top: 40px;
+  background: #8938f2;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  font-family: Montserrat;
+}
+
+#complete-reservation:hover {
+  cursor: pointer;
+  background: #8938f2;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #1FE797,
+              0 0 25px #1FE797,
+              0 0 50px #1FE797,
+              0 0 75px #8938f2;
+}
+
+#complete-reservation:disabled{
+  cursor: not-allowed;
+  background: #8938f23b;
+}
+
+#complete-reservation:hover:disabled {
+  box-shadow: none;
+}
+
+.form-box .input-group {
+  display: flex;
+}
+
+.surname {
+  margin-left: 14px;
+}
+
+.input-box input {
+  font-family: Montserrat;
+}
+
+@keyframes btn-anim1 {
+  0% {
       left: -100%;
-    }
-  
-    50%,100% {
+  }
+
+  50%, 100% {
       left: 100%;
-    }
   }
+}
 
-  .unselectable {
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
+.unselectable {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 
-  .full {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-shrink: 0;
-  }
+.full {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+}
 
-  .info-text{
-    font-size: small;
-    color: #ffffffac;
-    margin-top: -20px;
-  }
+.info-text {
+  font-size: small;
+  color: #ffffffac;
+  margin-top: -20px;
+}

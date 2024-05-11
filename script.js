@@ -4,11 +4,12 @@ if (localStorage.getItem('reserved')){
   document.getElementById('complete-reservation').addEventListener('click', function() {
     var name = document.querySelector('input[name="name"]').value;
     var surname = document.querySelector('input[name="surname"]').value;
-    var tickets = document.querySelector('input[name="tickets"]').value;
+    var ticketsInput = document.querySelector('input[name="tickets"]').value;
+    var tickets = parseInt(ticketsInput.value);
   
     var price = 2.5; //PRICE HERE
 
-    if(!name||!surname||tickets<1||tickets>10){
+    if(!name||!surname||tickets<1||tickets>10||isNaN(tickets)||tickets !== Math.floor(tickets)){
         return;
     }
 

@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
-    <head>
-        <meta charset="UTF-8">
-        <title>Reservar | Finalistas Tarouca 2024</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="icon.ico">
-        <link href="https://fonts.googleapis.com" rel="preconnect"/>
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            WebFont.load({
-                google: {
-                    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]
-                }
-            });
-        </script>
-    </head>
-    <body class="background">
-        <div class="navbar">
-            <div class="container">
-                <img class="unselectable" src="logo_white.svg" width="71" alt="Finalistas Tarouca 2024"/>
-                <nav role="navigation" class="nav-menu">
-                    <a href="index.html" class="nav-link">Início</a>
-                    <!--<a href="contacto.html" class="nav-link">Contacto</a>-->
-                </nav>
+<head>
+    <meta charset="UTF-8">
+    <title>Reservar | Finalistas Tarouca 2024</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.ico">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" defer></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]
+            }
+        });
+    </script>
+</head>
+<body class="background">
+<div class="navbar">
+    <div class="container">
+        <img class="unselectable" src="logo_white.svg" width="71" alt="Finalistas Tarouca 2024">
+        <nav role="navigation" class="nav-menu">
+            <a href="index.html" class="nav-link">Início</a>
+            <!--<a href="contacto.html" class="nav-link">Contacto</a>-->
+        </nav>
+    </div>
+</div>
+<div class="background full">
+    <div class="form-box">
+        <form>
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" required maxlength="20">
+                    <label>Nome</label>
+                </div>
+                <div class="input-box surname">
+                    <input type="text" name="surname" required maxlength="20">
+                    <label>Apelido</label>
+                </div>
             </div>
-        </div>
-        <div class="background full">
-            <div class="form-box">
-                <form>
-                    <div class="input-group">
-                        <div class="input-box">
-                            <input type="text" name="name" required="true" maxlength="20">
-                            <label>Nome</label>
-                        </div>
-                        <div class="input-box surname">
-                            <input type="text" name="surname" required="true" maxlength="20">
-                            <label>Apelido</label>
-                        </div>
-                    </div>
-                    <div class="input-box">
-                        <input class="number-input "type="number" name="tickets" required="true" max="10" min="1" contenteditable="" value="1">
-                        <label>Número de pulseiras</label>
-                    </div>
-                    <div class="info-text">Reservas inválidas serão anuladas.</div>
-                    <center>
-                    <button id="complete-reservation" href="#">Reservar</button></center>
-                </form>
+            <div class="input-box">
+                <input class="number-input" type="number" name="tickets" required max="10" min="1" contenteditable="" value="1">
+                <label>Número de pulseiras</label>
             </div>
-        </div>
-    </body>
-    <script src="script.js"></script> </body>
+            <div class="info-text">Reservas inválidas serão anuladas.</div>
+            <center>
+                <button id="complete-reservation" href="#">Reservar</button>
+            </center>
+        </form>
+    </div>
+</div>
+<script src="script.js" defer></script>
+</body>
 </html>
-
