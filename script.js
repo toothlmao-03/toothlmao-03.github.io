@@ -5,7 +5,7 @@ if (localStorage.getItem('reserved')){
     var name = document.querySelector('input[name="name"]').value;
     var surname = document.querySelector('input[name="surname"]').value;
     var ticketsInput = document.querySelector('input[name="tickets"]').value;
-    var tickets = parseInt(ticketsInput.value);
+    var tickets = parseInt(ticketsInput);
   
     var price = 2.5; //PRICE HERE
 
@@ -14,6 +14,7 @@ if (localStorage.getItem('reserved')){
     }
 
     document.getElementById('complete-reservation').textContent = "A fazer reserva...";
+    console.log("A fazer reserva de "+tickets+" para "+name+" "+surname)
 
     var formData = new FormData();
     formData.append('name', name);
@@ -27,6 +28,7 @@ if (localStorage.getItem('reserved')){
     })
     .then(response => {
       if (response.ok) {
+        console.log("Reserva de "+tickets+" para "+name+" "+surname+" concluída")
         window.location.href = 'success.html';
         localStorage.setItem('reserved', true);
       } else {

@@ -139,7 +139,8 @@ body {
 
 #complete-reservation:disabled{
   cursor: not-allowed;
-  background: #8938f23b;
+  color: #ffffff8d;
+  background: #e4ac2931;
 }
 
 #complete-reservation:hover:disabled {
