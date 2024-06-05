@@ -1,7 +1,7 @@
 body {
   font-family: Montserrat;
   color: #DFE6F1;
-  background-color: #0C121B;
+  background-color: #31162d;
   margin: 0;
 }
 
@@ -55,9 +55,9 @@ body {
   margin: auto;
   width: 400px;
   padding: 40px;
-  background: rgba(12, 18, 27, 0.65);
+  background: rgba(27, 12, 27, 0.499);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(12, 18, 27, 0.37);
+  box-shadow: 0 15px 25px rgba(27, 12, 27, 0.28);
   border-radius: 10px;
 }
 
@@ -119,7 +119,7 @@ body {
   text-decoration: none;
   transition: .2s;
   margin-top: 40px;
-  background: #8938f2;
+  background: #E4AB29;
   border-radius: 5px;
   font-weight: 500;
   border: none;
@@ -128,13 +128,13 @@ body {
 
 #complete-reservation:hover {
   cursor: pointer;
-  background: #8938f2;
+  background: #E4AB29;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #1FE797,
-              0 0 25px #1FE797,
-              0 0 50px #1FE797,
-              0 0 75px #8938f2;
+  box-shadow: 0 0 5px #E4AB29,
+              0 0 25px #E4AB29,
+              0 0 50px #EE41C9,
+              0 0 75px #EE41C9;
 }
 
 #complete-reservation:disabled{
