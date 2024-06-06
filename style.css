@@ -224,12 +224,12 @@ body {
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.wrapper .facebook:hover {
+.facebook:hover {
   background: #1877f2;
   color: #fff;
 }
 
-.wrapper .instagram:hover{
+.instagram:hover{
   background: #e4405f;
   color: #fff;
 }
