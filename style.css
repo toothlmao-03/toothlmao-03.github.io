@@ -1,5 +1,5 @@
 body {
-  font-family: Montserrat;
+  font-family: "Poppins", sans-serif;
   color: #DFE6F1;
   background-color: #31162d;
   margin: 0;
@@ -11,6 +11,8 @@ body {
   padding: 20px;
   text-decoration: none;
   display: inline-block;
+  font-size: 18px;
+  font-weight: 360;
 }
 
 .nav-menu {
@@ -123,7 +125,7 @@ body {
   border-radius: 5px;
   font-weight: 500;
   border: none;
-  font-family: Montserrat;
+  font-family: Poppins;
 }
 
 #complete-reservation:hover {
@@ -156,7 +158,7 @@ body {
 }
 
 .input-box input {
-  font-family: Montserrat;
+  font-family: Poppins;
 }
 
 @keyframes btn-anim1 {
@@ -177,6 +179,10 @@ body {
   -ms-user-select: none;
 }
 
+.corner_logo {
+  margin: 10px;
+}
+
 .full {
   height: 100vh;
   width: 100%;
@@ -188,4 +194,42 @@ body {
   font-size: small;
   color: #ffffffac;
   margin-top: -20px;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 14px;
+  right: 30px;
+  display: inline-flex;
+  list-style: none;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: right;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  color: #EE41C9;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .facebook:hover {
+  background: #1877f2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover{
+  background: #e4405f;
+  color: #fff;
 }
