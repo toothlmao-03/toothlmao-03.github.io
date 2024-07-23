@@ -133,10 +133,10 @@ body {
   background: #fec14b;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #fec14b,
-              0 0 25px #ff742a,
-              0 0 50px #1751a8,
-              0 0 75px #1751a8;
+  box-shadow: 0 0 5px #1751a8,
+              0 0 25px #1751a8,
+              0 0 50px #ff742a,
+              0 0 75px #fec14b;
 }
 
 #complete-reservation:disabled{
