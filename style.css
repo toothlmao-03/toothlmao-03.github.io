@@ -35,7 +35,7 @@ body {
   position: fixed;
   inset: 0;
   margin: auto;
-  width: 50%;
+  width: 40%;
 }
 
 @media screen and (max-width: 767px){
@@ -121,7 +121,7 @@ body {
   text-decoration: none;
   transition: .2s;
   margin-top: 40px;
-  background: #E4AB29;
+  background: #fec14b;
   border-radius: 5px;
   font-weight: 500;
   border: none;
@@ -130,13 +130,13 @@ body {
 
 #complete-reservation:hover {
   cursor: pointer;
-  background: #E4AB29;
+  background: #fec14b;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #E4AB29,
-              0 0 25px #E4AB29,
-              0 0 50px #EE41C9,
-              0 0 75px #EE41C9;
+  box-shadow: 0 0 5px #fec14b,
+              0 0 25px #ff742a,
+              0 0 50px #1751a8,
+              0 0 75px #1751a8;
 }
 
 #complete-reservation:disabled{
@@ -210,7 +210,7 @@ body {
 .wrapper .icon {
   position: relative;
   background: #fff;
-  color: #EE41C9;
+  color: #1751a8;
   border-radius: 50%;
   margin: 10px;
   width: 50px;
