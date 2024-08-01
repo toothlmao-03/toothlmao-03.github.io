@@ -31,19 +31,6 @@ body {
   padding: 10px;
 }
 
-.imtip {
-  position: fixed;
-  inset: 0;
-  margin: auto;
-  width: 40%;
-}
-
-@media screen and (max-width: 767px){
-  .imtip {
-      width: 75%;
-  }
-}
-
 .background {
   background-image: url(background.png);
   background-position: center;
@@ -233,3 +220,28 @@ body {
   background: #e4405f;
   color: #fff;
 }
+.img-btn-container {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-btn-container img{
+  margin: 60px;
+ width: 30%;
+}
+
+.img-btn-container button {
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+  padding: 0px 40px;
+  font-size: 30px;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background: #1751a8;
+  border-radius: 0.3em;
+  border: none;
+  color: #FFF;
+  height: 2.6em;
+}
+
