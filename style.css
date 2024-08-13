@@ -194,6 +194,10 @@ button {
 
 .img-btn-container img{
  width: 50%;
+ align-self: center;
+ text-align: center;
+ align-content: center;
+ position: relative;
 }
 
 button {
