@@ -107,41 +107,6 @@ button {
   font-size: 12px;
 }
 
-#complete-reservation {
-  display: inline-block;
-  padding: 10px 20px;
-  color: #ffffff;
-  font-size: 16px;
-  text-decoration: none;
-  transition: .2s;
-  margin-top: 40px;
-  background: #fec14b;
-  border-radius: 5px;
-  font-weight: 500;
-  border: none;
-}
-
-#complete-reservation:hover {
-  cursor: pointer;
-  background: #fec14b;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #1751a8,
-              0 0 25px #1751a8,
-              0 0 50px #ff742a,
-              0 0 75px #fec14b;
-}
-
-#complete-reservation:disabled{
-  cursor: not-allowed;
-  color: #ffffff8d;
-  background: #e4ac2931;
-}
-
-#complete-reservation:hover:disabled {
-  box-shadow: none;
-}
-
 .form-box .input-group {
   display: flex;
 }
@@ -231,7 +196,7 @@ button {
  width: 50%;
 }
 
-.img-btn-container button {
+button {
   font-weight:bold;
   padding: 0px 40px;
   font-size: 32px;
@@ -249,7 +214,7 @@ button {
   transition: all 0.2s ease-in-out;
 }
 
-.img-btn-container button:hover {
+button:hover {
   transform: scale(1.05);
   background: radial-gradient(
     circle at bottom,
@@ -260,3 +225,27 @@ button {
   outline: 2px solid hsl(40, 99%, 65%);
 }
 
+#complete-reservation {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+button:disabled {
+  background: radial-gradient(
+    circle at bottom,
+    #fec24b72 30%,
+    #ff752a63 80%
+  );
+}
+
+button:disabled:hover {
+  outline: none;
+  transform: scale(1);
+  box-shadow: 0 0 .2em .1em #fec24b60;
+  cursor:not-allowed
+}
