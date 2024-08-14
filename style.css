@@ -205,6 +205,12 @@ button {
  align-content: center;
 }
 
+@media (max-width: 768px) {
+  .img-btn-container img {
+      width: 80%;
+  }
+}
+
 button {
   font-weight:bold;
   padding: 0px 40px;
@@ -265,6 +271,13 @@ h1 {
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
   font-size: 100px;
 }
+
+@media (max-width: 768px) {
+  .h1 {
+      font-size: 30px;
+  }
+}
+
 @keyframes scale {
   100% {
     transform: scale(1);
