@@ -1,6 +1,5 @@
 if (localStorage.getItem('reserved')){
   document.getElementById('complete-reservation').disabled = true;
-  document.getElementById('go-to-reservation').disabled = true;
 } else {
   document.getElementById('complete-reservation').addEventListener('click', function() {
     var name = document.querySelector('input[name="name"]').value;
