@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #DFE6F1;
-  background-color: #31162d;
+  background-color: #0c1237;
   margin: 0;
 }
 
@@ -274,7 +274,7 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-      font-size: 30px;
+      font-size: 40px;
   }
 }
 
