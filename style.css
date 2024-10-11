@@ -297,11 +297,7 @@ button {
   padding: 0px 40px;
   font-size: 36px;
   cursor: pointer;
-  background: radial-gradient(
-    circle at bottom,
-    #b1f270 30%,
-    #b1f270 80%
-  );
+  background: #b1f270;
   border-radius: 0.4em;
   border: none;
   color: #000000;
@@ -312,11 +308,7 @@ button {
 
 button:hover {
   transform: scale(1.05);
-  background: radial-gradient(
-    circle at bottom,
-    #b1f270 30%,
-    #b1f270 80%
-  );
+  background: #b1f270;
   box-shadow: 0 0 .3em .2em #b1f27068;
   outline: 5px solid hsl(0, 0%, 0%);
 }
@@ -352,10 +344,21 @@ button:disabled {
   );
 }
 
+button:disabled {
+  background: #b1f27033;
+}
+
 button:disabled:hover {
   outline: none;
   transform: scale(1);
   box-shadow: 0 0 .2em .1em #fec24b60;
+  cursor:not-allowed
+}
+
+button:disabled:hover {
+  outline: none;
+  transform: scale(1);
+  box-shadow: 0 0 .2em .1em #b1f27033;
   cursor:not-allowed
 }
 

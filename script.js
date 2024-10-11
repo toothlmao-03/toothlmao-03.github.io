@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
   var form = document.querySelector("form");
 
+  if (localStorage.getItem('reserved_futsal')){
+    document.getElementById('complete-reservation-futsal').disabled = true;
+  }
+
   form.addEventListener("submit", function(event) {
     event.preventDefault();
 
