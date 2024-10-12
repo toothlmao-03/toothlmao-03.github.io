@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
             })
             .then(response => {
               if (response.ok) {
-                window.location.href = 'success.html';
+                window.location.href = 'success';
                 localStorage.setItem('reserved_futsal', true);
               } else {
                 alert('Erro ao criar equipa. Por favor, tenta novamente.')
