@@ -61,6 +61,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('complete-reservation-futsal').disabled = true;
       } else {
           document.getElementById('complete-reservation-futsal').addEventListener('click', function() {
+            document.getElementById('complete-reservation-futsal').disabled = true;
+            document.getElementById('complete-reservation-futsal').textContent = "A carregar..."
             console.log("abc")
             var team_name = document.querySelector('input[name="team-name"]').value
             var member1 = document.querySelector('input[name="name1').value + " " + document.querySelector('input[name="class1').value
