@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
           var ticketsInput = document.querySelector('input[name="tickets"]').value;
           var tickets = parseInt(ticketsInput);
         
-          var price = 2.5; //PRICE HERE
+          var price = 3.0; //PRICE HERE
       
           if(!name||!surname||tickets<1||tickets>10||isNaN(tickets)||tickets !== Math.floor(tickets)){
               return;
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
               getElementById('complete-reservation').value = "A carregar..."
 
             } else {
-              alert('Erro ao realizar reserva. Por favor, tenta novamente.')
+              //alert('Erro ao realizar reserva. Por favor, tenta novamente.')
             }
           })
           .catch(error => {
