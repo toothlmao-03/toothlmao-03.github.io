@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
           })
           .catch(error => {
             console.error('Erro ao fazer solicitação:', error);
-            alert('Erro ao realizar reserva. Por favor, tenta novamente.')
+            //alert('Erro ao realizar reserva. Por favor, tenta novamente.')
           });
         });
       }
