@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
           formData.append('tickets', tickets)
           formData.append('price', price)
           
-          fetch('https://script.google.com/macros/s/AKfycbzNyZHv_DbyDYpCZQuKYHAcQfzL8DIcVqVg6LcH4TaJs0QJ3_edgdlUctn8AIq_wu3w9w/exec', {
+          fetch('https://script.google.com/macros/s/AKfycbycUomWMGDhV4hHCPV6flzMItanzcKLYyqgv4sPdhiagdwLvIl0_e0pi3oKWFZ8in3YnQ/exec', {
             method: 'POST',
             body: formData
           })

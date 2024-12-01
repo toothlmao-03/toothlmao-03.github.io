@@ -3,13 +3,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: #e4e4cf;
-  background-color: #6c1515;
+  color: #846645;
   margin: 0;
 }
 
 .nav-link {
-  color: #e4e4cf;
+  color: #846645;
   text-align: left;
   padding: 20px;
   text-decoration: none;
@@ -35,9 +34,7 @@ body {
 }
 
 .background {
-  background-image: radial-gradient(#151313 5.5px, transparent 5.5px);
-  background-size: 14px 14px;
-  background-color: #6c1515;
+  background-color: #dfbd9a;
 }
 
 button {
@@ -50,7 +47,7 @@ button {
   margin: auto;
   width: 400px;
   padding: 40px;
-  background: #00000041;
+  background: #00000099;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
   box-sizing: border-box;
@@ -286,10 +283,10 @@ button {
   padding: 0px 40px;
   font-size: 36px;
   cursor: pointer;
-  background: #DF252A;
+  background: #aa080b;
   border-radius: 0.4em;
   border: none;
-  color: #e4e4cf;
+  color: #dfbd9a;
   height: 2.6em;
   box-shadow: 0 0 .3em .2em #00000060;
   transition: all 0.2s ease-in-out;
@@ -299,9 +296,8 @@ button {
 
 button:hover {
   transform: scale(1.05);
-  background: #e4e4cf;
-  color: #DF252A;
-  box-shadow: 0 0 .3em .2em #df252b64;
+  background: #dfbd9a;
+  color: #aa080b;
   outline: 5px solid hsl(0, 0%, 0%);
 }
 
