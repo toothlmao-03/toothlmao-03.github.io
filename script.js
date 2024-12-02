@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
           .then(response => {
             if (response.ok) {
               console.log("Reserva de "+tickets+" para "+name+" "+surname+" concluída")
-              window.location.href = 'success.html';
+              window.location.href = 'success';
               localStorage.setItem('reserved3', true);
               document.getElementById('complete-reservation').disabled = true;
               getElementById('complete-reservation').value = "A carregar..."
