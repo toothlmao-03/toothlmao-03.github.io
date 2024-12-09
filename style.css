@@ -3,12 +3,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: #846645;
+  color: #d6d8d8;
   margin: 0;
 }
 
 .nav-link {
-  color: #846645;
+  color: #d6d8d8;
   text-align: left;
   padding: 20px;
   text-decoration: none;
@@ -34,7 +34,7 @@ body {
 }
 
 .background {
-  background-color: #dfbd9a;
+  background-color: #0c1615;
 }
 
 button {
@@ -73,7 +73,7 @@ button {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
-  color: #e4e4cf;
+  color: #d6d8d8;
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #e4e4cf;
@@ -92,7 +92,7 @@ button {
   flex:1;
   padding: 10px 0;
   font-size: 16px;
-  color: #e4e4cf;
+  color: #d6d8d8;
   margin-bottom: 5px;
   border: none;
   border-bottom: 1px solid #e4e4cf;
@@ -111,7 +111,7 @@ button {
   font-weight: 600;
   margin-right:16px;
   font-size: 18px;
-  color: #e4e4cf;
+  color: #d6d8d8;
   pointer-events: none;
   transition: .2s;
 }
@@ -122,7 +122,7 @@ button {
   left: 0;
   padding: 10px 0;
   font-size: 16px;
-  color: #e4e4cf;
+  color: #a7b789;
   pointer-events: none;
   transition: .2s;
 }
@@ -131,7 +131,7 @@ button {
 .input-box input:valid ~ label {
   top: -20px;
   left: 0;
-  color: #e4e4cfac;
+  color: #d6d8d8;
   font-size: 12px;
 }
 
@@ -189,13 +189,13 @@ button {
 
 .info-text {
   font-size: small;
-  color: #e4e4cfac;
+  color: #a7b789;
   margin-top: -20px;
 }
 
 .info-text2 {
   font-size: small;
-  color: #e4e4cfac;
+  color: #a7b789;
   margin-top: 0;
   text-align: center;
 }
@@ -283,10 +283,10 @@ button {
   padding: 0px 40px;
   font-size: 36px;
   cursor: pointer;
-  background: #aa080b;
+  background: #598c22;
   border-radius: 0.4em;
   border: none;
-  color: #dfbd9a;
+  color: #d8dada;
   height: 2.6em;
   box-shadow: 0 0 .3em .2em #00000060;
   transition: all 0.2s ease-in-out;
@@ -296,8 +296,8 @@ button {
 
 button:hover {
   transform: scale(1.05);
-  background: #dfbd9a;
-  color: #aa080b;
+  background: #d8dada;
+  color: #598c22;
   outline: 5px solid hsl(0, 0%, 0%);
 }
 
