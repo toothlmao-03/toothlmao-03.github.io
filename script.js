@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
           var price = 3.0; //PRICE HERE
 
           name = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+          name = name.replace(/\s/g, '');
           surname = surname.charAt(0).toUpperCase() + surname.slice(1).toLowerCase();
       
           if(!name||!surname||tickets<1||tickets>10||isNaN(tickets)||tickets !== Math.floor(tickets)){
