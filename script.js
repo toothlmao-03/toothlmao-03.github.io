@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
           var tickets = parseInt(ticketsInput);
         
           var price = 3.0; //PRICE HERE
+
+          name = name.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+      surname = surname.split(/\s+/).map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
       
           if(!name||!surname||tickets<1||tickets>10||isNaN(tickets)||tickets !== Math.floor(tickets)){
               return;
