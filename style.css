@@ -34,7 +34,7 @@ body {
 }
 
 .background {
-  background-color: #040613;
+  background-color: #9d0a14;
 }
 
 button {
@@ -288,14 +288,15 @@ button {
   padding: 0px 40px;
   font-size: 36px;
   cursor: pointer;
-  background: #dd1672;
+  background: #f1456a;
   border-radius: 0.4em;
   border: none;
 
   color: #d8dada;
   height: 2.6em;
-  box-shadow: 0 0 .3em .2em #00000060;
+  box-shadow: 0 0 .2em .1em #ff5e8e60;
   transition: all 0.2s ease-in-out;
+  margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -303,7 +304,7 @@ button {
 button:hover {
   transform: scale(1.05);
   background: #d8dada;
-  color: #dd1672;
+  color: #f1456a;
   box-shadow: 0 0 .3em .2em #e12f79ac;
 }
 

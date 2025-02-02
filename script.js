@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-      if (localStorage.getItem('reserved5')){
+      if (localStorage.getItem('reserved6')){
         document.getElementById('complete-reservation').disabled = true;
       } else {
         document.getElementById('complete-reservation').addEventListener('click', function() {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (response.ok) {
               console.log("Reserva de "+tickets+" para "+name+" "+surname+" concluída")
               window.location.href = 'success';
-              localStorage.setItem('reserved5', true);
+              localStorage.setItem('reserved6', true);
               document.getElementById('complete-reservation').disabled = true;
               getElementById('complete-reservation').value = "A carregar..."
 
