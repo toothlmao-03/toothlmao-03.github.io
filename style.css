@@ -3,12 +3,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: #d6d8d8;
+  color: #fd4fa2;
   margin: 0;
 }
 
 .nav-link {
-  color: #d6d8d8;
+  color: #fd4fa2;
   text-align: left;
   padding: 20px;
   text-decoration: none;
@@ -34,7 +34,7 @@ body {
 }
 
 .background {
-  background-color: #9d0a14;
+  background-color: #fdb52c;
 }
 
 button {
@@ -52,7 +52,7 @@ button {
   margin: auto;
   width: 400px;
   padding: 40px;
-  background: #00000099;
+  background: #6b3b0a98;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
   box-sizing: border-box;
@@ -127,7 +127,7 @@ button {
   left: 0;
   padding: 10px 0;
   font-size: 16px;
-  color: #b789a2;
+  color: #ffffff;
   pointer-events: none;
   transition: .2s;
 }
@@ -194,13 +194,13 @@ button {
 
 .info-text {
   font-size: small;
-  color: #b789a2;
+  color: #ffffff;
   margin-top: -20px;
 }
 
 .info-text2 {
   font-size: small;
-  color: #b789a2;
+  color: #ffffff;
   margin-top: 0;
   text-align: center;
 }
@@ -292,7 +292,7 @@ button {
   border-radius: 0.4em;
   border: none;
 
-  color: #d8dada;
+  color: #ffeb73;
   height: 2.6em;
   box-shadow: 0 0 .2em .1em #ff5e8e60;
   transition: all 0.2s ease-in-out;
@@ -303,7 +303,7 @@ button {
 
 button:hover {
   transform: scale(1.05);
-  background: #d8dada;
+  background: #ffeb73;
   color: #f1456a;
   box-shadow: 0 0 .3em .2em #e12f79ac;
 }
