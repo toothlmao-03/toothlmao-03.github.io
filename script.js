@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
           var ticketsInput = document.querySelector('input[name="tickets"]').value;
           var tickets = parseInt(ticketsInput);
         
-          var price = 4.5; //PRICE HERE
+          var price = 5; //PRICE HERE
 
           name = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
           name = name.replace(/ /g, '');
