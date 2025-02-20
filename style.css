@@ -250,7 +250,8 @@ button {
 
 @media (max-width: 768px) {
   .img-btn-container img {
-      width: 80%;
+      width: 100%;
+      margin-bottom: 30px;
   }
 }
 
