@@ -66,6 +66,7 @@ button {
 @media screen and (max-width: 767px){
   .form-box {
       width: max-content;
+      margin-top: 60%;
       margin-left: 14px;
       margin-right: 14px;
   }
