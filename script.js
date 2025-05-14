@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-      if (localStorage.getItem('reservedfav')){
+      if (localStorage.getItem('reservedhawaii')){
         document.getElementById('complete-reservation').disabled = true;
       } else {
         document.getElementById('complete-reservation').addEventListener('click', function() {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (response.ok) {
               console.log("Reserva de "+tickets+" para "+name+" "+surname+" concluída")
               window.location.href = 'success';
-              localStorage.setItem('reservedfav', true);
+              localStorage.setItem('reservedhawaii', true);
               document.getElementById('complete-reservation').disabled = true;
               getElementById('complete-reservation').value = "A carregar..."
 
