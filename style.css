@@ -3,12 +3,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  color: #fd4fa2;
+  color: #b6d8e1;
   margin: 0;
 }
 
 .nav-link {
-  color: #fd4fa2;
+  color: #b6d8e1;
   text-align: left;
   padding: 20px;
   text-decoration: none;
@@ -34,7 +34,9 @@ body {
 }
 
 .background {
-  background-color: #fdb52c;
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 button {
@@ -50,6 +52,7 @@ button {
   position: static;
   height: fit-content;
   margin: auto;
+  margin-top: 20%;
   width: 400px;
   padding: 40px;
   background: #6b3b0a98;
@@ -289,11 +292,11 @@ button {
   padding: 0px 40px;
   font-size: 36px;
   cursor: pointer;
-  background: #f1456a;
+  background: #b6d8e1;
   border-radius: 0.4em;
   border: none;
 
-  color: #ffeb73;
+  color: #295397;
   height: 2.6em;
   
   transition: all 0.2s ease-in-out;
@@ -305,8 +308,8 @@ button {
 button:hover {
   transform: scale(1.05);
   background: #ffeb73;
-  color: #fffdcd;
-  box-shadow: 0 0 .3em .2em #e12f79ac;
+  color: #b6d8e1;
+  box-shadow: 0 0 .3em .2em #295397ac;
 }
 
 #complete-reservation {
@@ -393,13 +396,13 @@ span:nth-child(2) {
 
 /* From Uiverse.io by kennyotsu-monochromia */ 
 button {
-  --black: #fd50a2;
-  --ch-black: #fd50a2;
-  --eer-black: #fd50a2;
-  --night-rider: #ea3b8c;
-  --white: #ffec5d;
-  --af-white: #ffd931;
-  --ch-white: #f3f384;
+  --black: #b6d8e1;
+  --ch-black: #b6d8e1;
+  --eer-black: #b6d8e1;
+  --night-rider: #4265ba;
+  --white: #4265ba;
+  --af-white: #4265ba;
+  --ch-white: #4265ba;
   border-radius: 8px;
   
   display: flex;
@@ -408,7 +411,7 @@ button {
   gap: 10px;
   padding: -5px 30px;
   border: none;
-  color: #ffeb73;
+  color: #4265ba;
   position: relative;
   cursor: pointer;
   font-weight: 700;
